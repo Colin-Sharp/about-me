@@ -18,9 +18,9 @@ class ContactMe extends React.Component {
           <p className="main-p about">If you are interested in working together, then please get in touch with me.
           Looking forward to hearing from you!</p>
           <ul className="contact-list">
-            <li>Call Me: 07788930354</li>
+            <li>Call Me: +44 (0) 7944878506</li>
             <li>Email Me: colinsinclairsmith2@gmail.com</li>
-            <li>Location: Southampton</li>
+            <li>Location: Worthing, England</li>
           </ul>
           <ul className="contact-links">
             <li>

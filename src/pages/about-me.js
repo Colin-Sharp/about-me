@@ -1,5 +1,4 @@
 import React from "react";
-// import Reveal from "react-reveal/Reveal";
 
 import Head from "../components/head";
 import Header from "../components/header";
@@ -17,7 +16,6 @@ class AboutMe extends React.Component {
           <div className="page">
           <h1>About Me</h1>
             <img className="about-me-pic" src={aboutMePic} alt="colin sinclair smith"></img>
-            {/* <Reveal effect="fadeInUp"> */}
               <div id="intro" className="section">
                 <div className="overlay">
                   <p className="main-p">
@@ -42,7 +40,6 @@ class AboutMe extends React.Component {
                   </p>
                 </div>
               </div>
-            {/* </Reveal> */}
           </div>
         </div>
         <Footer />
