@@ -1,0 +1,23 @@
+/* var */
+$light-colour: rgb(224, 230, 240);
+$dark-colour: #393e46;
+$primary-colour: #51a0d5;
+$text-colour: rgb(114, 113, 113);
+$primary-colour-lighten: #85aeb6;
+
+$header-font: 'Dancing Script', cursive;
+$text-font: 'Lato', sans-serif;
+
+/* imports */
+@import "../scss/header.scss";
+@import "../scss/page-layout.scss";
+@import "../scss/home.scss";
+
+@media screen and (min-width: 768px) {
+  @import "../scss/screen-tablet.scss";
+
+/* laptop screen start */
+@media screen and (min-width: 1025px) {
+  @import "../scss/screen-desktop.scss";
+}
+}

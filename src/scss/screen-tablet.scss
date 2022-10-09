@@ -1,0 +1,63 @@
+#side-drawer {
+  right: 0;
+}
+
+.image-wrapper {
+  img {
+    max-width: 400px;
+  }
+}
+
+.link {
+  margin: 30px 20px;
+  h1 {
+    margin: 0 200px;
+  }
+  &.first {
+    margin-top: 90px;
+  }
+}
+ 
+p {
+  max-width: 70%;
+  margin: 0 15%;
+}
+
+header {
+  height: 50px;
+}
+
+.about-me-pic {
+  width: 40%;
+  margin: 0px 30%;
+  border-radius: 5px;
+}
+
+footer ul li {
+  font-size: 2rem;
+  margin: 5px 5%;
+}
+
+/* ipad Pro start */
+@media screen and (min-width: 1024px) {
+  .link {
+    height: 300px;
+    margin: 30px 20px;
+    h1 {
+      margin: 0 300px;
+      top: 100px;
+    }
+    &.first {
+      margin-top: 90px;
+    }
+  }
+  .tech-container {
+    margin: 0 5%;
+  }
+
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+  }
+
+}
